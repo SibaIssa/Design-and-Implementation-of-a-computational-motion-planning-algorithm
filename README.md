@@ -14,3 +14,5 @@ advantage because it is reliable, and it produces a smooth path. The validity of
 tested on a robotic swarm platform that we designed and implemented to ensure high quality and ease of
 use. The control of the swarm is preformed centrally, and a visual feedback is provided continually to the
 central computer from a camera that is fixed above the robots
+
+(https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png)
