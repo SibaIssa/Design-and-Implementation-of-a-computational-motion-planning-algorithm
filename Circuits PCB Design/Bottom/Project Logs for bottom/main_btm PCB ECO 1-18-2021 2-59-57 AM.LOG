@@ -1,6 +1,0 @@
-Added Component: Designator=J?(pin4header)
-Change Net Name : Old Net Name=NetE1_4 New Net Name=Netj5_3
-Change Net Name : Old Net Name=NetE2_4 New Net Name=Netj5_5
-Change Net Name : Old Net Name=NetE3_4 New Net Name=Netj5_4
-Change Net Name : Old Net Name=NetE4_4 New Net Name=Netj6_2
-Added Member To Class: ClassName=Encoder_Sheet Member=Component J? 100th
