@@ -13,5 +13,4 @@ movement of the fluid’s particles towards a goal. The aforementioned feature g
 advantage because it is reliable, and it produces a smooth path. The validity of this algorithm will be
 tested on a robotic swarm platform that we designed and implemented to ensure high quality and ease of
 use. The control of the swarm is preformed centrally, and a visual feedback is provided continually to the
-central computer from a camera that is fixed above the robots, we can see ![here](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png) the project scheme.
-
+central computer from a camera that is fixed above the robots, we can see ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png) 
