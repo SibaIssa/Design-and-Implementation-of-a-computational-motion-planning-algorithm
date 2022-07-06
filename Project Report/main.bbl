@@ -1,0 +1,213 @@
+\begin{thebibliography}{10}
+
+\bibitem{b1}
+Yogeswaran M, S~G P.
+\newblock In: {Swarm Robotics: An Extensive Research Review}; 2010. .
+
+\bibitem{b2}
+Canny J, Reif J.
+\newblock {New lower bound techniques for robot motion planning problems}.
+\newblock In: 28th Annual Symposium on Foundations of Computer Science (sfcs
+  1987); 1987. p. 49-60.
+
+\bibitem{b3}
+Canny JF.
+\newblock {The Complexity of Robot Motion Planning}.
+\newblock Cambridge, MA, USA: MIT Press; 1988.
+
+\bibitem{b4}
+Farinelli A, Iocchi L, Nardi D.
+\newblock Multirobot systems: a classification focused on coordination [Journal
+  Article].
+\newblock IEEE Transactions on Systems, Man, and Cybernetics, Part B
+  (Cybernetics). 2004;34(5):2015-28.
+
+\bibitem{b5}
+Burgard W, Moors M, Stachniss C, Schneider FE.
+\newblock Coordinated multi-robot exploration [Journal Article].
+\newblock Trans Rob. 2005;21(3):376–386.
+\newblock Available from: \url{https://doi.org/10.1109/TRO.2004.839232}.
+
+\bibitem{b6}
+Konur S, Dixon C, Fisher M.
+\newblock Analysing robot swarm behaviour via probabilistic model checking
+  [Journal Article].
+\newblock Robotics and Autonomous Systems. 2012;60(2):199-213.
+
+\bibitem{b7}
+Liu W, Winfield AFT, Sa J, Chen J, Dou L.
+\newblock Towards Energy Optimization: Emergent Task Allocation in a Swarm of
+  Foraging Robots [Journal Article].
+\newblock Adaptive Behavior. 2007;15(3):289-305.
+\newblock Available from:
+  \url{https://journals.sagepub.com/doi/abs/10.1177/1059712307082088}.
+
+\bibitem{b8}
+Khatib O.
+\newblock Real-time obstacle avoidance for manipulators and mobile robots.
+\newblock In: Proceedings. 1985 IEEE International Conference on Robotics and
+  Automation. vol.~2;. p. 500-5.
+
+\bibitem{b9}
+Saska M, Macas M, Preucil L, Lhotska L.
+\newblock Robot Path Planning using Particle Swarm Optimization of Ferguson
+  Splines.
+\newblock In: 2006 IEEE Conference on Emerging Technologies and Factory
+  Automation;. p. 833-9.
+
+\bibitem{b10}
+Sullivan J, Waydo S, Campbell M.
+\newblock In: Using Stream Functions for Complex Behavior and Path Generation;.
+  Available from: \url{https://arc.aiaa.org/doi/abs/10.2514/6.2003-5800}.
+
+\bibitem{b11}
+Wang H, Lyu W, Yao P, Liang X, Liu C.
+\newblock Three-dimensional path planning for unmanned aerial vehicle based on
+  interfered fluid dynamical system [Journal Article].
+\newblock Chinese Journal of Aeronautics. 2015;28(1):229-39.
+\newblock Available from:
+  \url{https://www.sciencedirect.com/science/article/pii/S1000936114002301}.
+
+\bibitem{b12}
+
+
+\bibitem{c1}
+Bae H, Kim G, Kim J, Qian D, Lee S.
+\newblock {Multi-Robot Path Planning Method Using Reinforcement Learning}.
+\newblock Applied Sciences. 2019;9(15).
+\newblock Available from: \url{https://www.mdpi.com/2076-3417/9/15/3057}.
+
+\bibitem{c2}
+Das PK, Behera HS, Panigrahi BK.
+\newblock {Intelligent-based multi-robot path planning inspired by improved
+  classical Q-learning and improved particle swarm optimization with perturbed
+  velocity}.
+\newblock Engineering Science and Technology, an International Journal.
+  2016;19(1):651-69.
+\newblock Available from:
+  \url{https://www.sciencedirect.com/science/article/pii/S2215098615001548}.
+
+\bibitem{c3}
+Lin HY, Huang YC.
+\newblock Collaborative Complete Coverage and Path Planning for Multi-Robot
+  Exploration.
+\newblock Sensors. 2021;21(11).
+\newblock Available from: \url{https://www.mdpi.com/1424-8220/21/11/3709}.
+
+\bibitem{b13}
+You W, Yin Y, Qian X, Zhang X.
+\newblock A Path Planning Algorithm Based on Fluid Simulation [Journal
+  Article].
+\newblock 2017 10th International Symposium on Computational Intelligence and
+  Design (ISCID). 2017;1:502-6.
+
+\bibitem{b14}
+Sabry~Hassouna M, Abdel-Hakim AE, Farag AA.
+\newblock PDE-based robust robotic navigation [Journal Article].
+\newblock Image and Vision Computing. 2009;27(1):10-8.
+\newblock Available from:
+  \url{https://www.sciencedirect.com/science/article/pii/S0262885607000790}.
+
+\bibitem{b15}
+;. .
+
+\bibitem{b16}
+Hadidi R, Cao J, Woodward M, Ryoo MS, Kim H.
+\newblock Distributed perception by collaborative robots [Journal Article].
+\newblock IEEE Robotics and Automation Letters. 2018;3(4):3709-16.
+
+\bibitem{b17}
+Arjadi RH, Candra H, Prananto HD, Wijanarko TAW.
+\newblock RSSI Comparison of ESP8266 Modules.
+\newblock In: 2018 Electrical Power, Electronics, Communications, Controls and
+  Informatics Seminar (EECCIS). IEEE;. p. 150-3.
+
+\bibitem{c4}
+Anoop AS, Kanakasabapathy P.
+\newblock {Review on swarm robotics platforms}.
+\newblock In: 2017 International Conference on Technological Advancements in
+  Power and Energy ( TAP Energy); 2017. p. 1-6.
+
+\bibitem{c5}
+Arvin F, Samsudin K, Ramli AR.
+\newblock {Development of a miniature robot for swarm robotic application}.
+\newblock International Journal of Computer and Electrical Engineering.
+  2009;1(4):422-36.
+
+\bibitem{c6}
+Rubenstein M, Ahler C, Nagpal R.
+\newblock {Kilobot: A low cost scalable robot system for collective behaviors}.
+\newblock In: 2012 IEEE International Conference on Robotics and Automation;
+  2012. p. 3293-8.
+
+\bibitem{c7}
+McLurkin J, McMullen A, Robbins N, Habibi G, Becker A, Chou A, et~al.
+\newblock {A robot system design for low-cost multi-robot manipulation}.
+\newblock 2014 IEEE/RSJ International Conference on Intelligent Robots and
+  Systems. 2014:912-8.
+
+\bibitem{c8}
+Dorigo M.
+\newblock {SWARM-BOT: an experiment in swarm robotics}.
+\newblock In: Proceedings 2005 IEEE Swarm Intelligence Symposium, 2005. SIS
+  2005.; 2005. p. 192-200.
+
+\bibitem{c9}
+Mondada F, Bonani M, Raemy X, Pugh J, Cianci C, Klaptocz A, et~al.
+\newblock {The e-puck, a robot designed for education in engineering}.
+\newblock Proceedings of the 9th conference on autonomous robot systems and
+  competitions. 2009;1(1):59-65.
+
+\bibitem{c10}
+Bonani M, Longchamp V, Magnenat S, R{\'{e}}tornaz P, Burnier D, Roulet G,
+  et~al.
+\newblock {The marXbot, a miniature mobile robot opening new perspectives for
+  the collective-robotic research}.
+\newblock IEEE/RSJ 2010 International Conference on Intelligent Robots and
+  Systems, IROS 2010 - Conference Proceedings. 2010:4187-93.
+
+\bibitem{c11}
+Wilson S, Gameros R, Sheely M, Lin M, Dover K, Gevorkyan R, et~al.
+\newblock {Pheeno, A Versatile Swarm Robotic Research and Education Platform}.
+\newblock IEEE Robotics and Automation Letters. 2016;1(2):884-91.
+
+\bibitem{d1}
+Liu C, Mao Q, Chu X, Xie S.
+\newblock {An Improved A-Star Algorithm Considering Water Current, Traffic
+  Separation and Berthing for Vessel Path Planning}.
+\newblock Applied Sciences. 2019 mar;9:1057.
+
+\bibitem{d2}
+Mehlhorn K, Sanders P.
+\newblock {Algorithms and Data Structures: The Basic Toolbox}.
+\newblock 1st ed. Springer Publishing Company, Incorporated; 2008.
+
+\bibitem{d4}
+Yun X, Tan KC.
+\newblock {A wall-following method for escaping local minima in potential field
+  based motion planning}.
+\newblock In: 1997 8th International Conference on Advanced Robotics.
+  Proceedings. ICAR'97; 1997. p. 421-6.
+
+\bibitem{d5}
+Chengqing L, Ang M, Krishnan H, Lim S.
+\newblock {Virtual obstacle concept for local-minimum-recovery in
+  potential-field based navigation}.
+\newblock Proceedings 2000 ICRA Millennium Conference IEEE International
+  Conference on Robotics and Automation Symposia Proceedings (Cat No00CH37065).
+  2000;2:983-8 vol.2.
+
+\bibitem{d6}
+Koren Y, Borenstein J.
+\newblock {Potential field methods and their inherent limitations for mobile
+  robot navigation}.
+\newblock In: Proceedings. 1991 IEEE International Conference on Robotics and
+  Automation; 1991. p. 1398-404 vol.2.
+
+\bibitem{d7}
+Yu J, LaValle SM.
+\newblock {Optimal Multirobot Path Planning on Graphs: Complete Algorithms and
+  Effective Heuristics}.
+\newblock IEEE Transactions on Robotics. 2016;32(5):1163-77.
+
+\end{thebibliography}

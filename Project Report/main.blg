@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: vancouver.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: ref.bib
+I was expecting a `,' or a `}'---line 315 of file ref.bib
+ :    
+ :    author = {Radmanesh, Mohammadreza and Kumar, Manish and French, Donald},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 409 of file ref.bib
+ :    
+ :    author = {Cao, Y Uny and Kahng, Andrew B and Fukunaga, Alex S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty chapter in b1
+Warning--missing publisher in b1
+Warning--empty pages in b1
+Warning--there's a month but no year in b8
+Warning--there's a month but no year in b9
+Warning--empty chapter in b10
+Warning--missing publisher in b10
+Warning--there's a month but no year in b10
+Warning--empty pages in b10
+Warning--empty author in b12
+Warning--empty title in b12
+`journal' is a missing field, not a string, for entry b12
+while executing---line 1983 of file vancouver.bst
+Warning--empty journal in b12
+Warning--empty year in b12
+Warning--empty author in b15
+Warning--empty chapter in b15
+Warning--empty title in b15
+Warning--missing publisher in b15
+Warning--there's a month but no year in b15
+Warning--empty pages in b15
+Warning--there's a month but no year in b17
+You've used 34 entries,
+            3507 wiz_defined-function locations,
+            906 strings with 12340 characters,
+and the built_in function-call counts, 68914 in all, are:
+= -- 7742
+> -- 685
+< -- 476
++ -- 305
+- -- 136
+* -- 5185
+:= -- 7346
+add.period$ -- 124
+call.type$ -- 34
+change.case$ -- 24
+chr.to.int$ -- 1057
+cite$ -- 54
+duplicate$ -- 6299
+empty$ -- 6625
+format.name$ -- 141
+if$ -- 16291
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 333
+newline$ -- 174
+num.names$ -- 32
+pop$ -- 1136
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 843
+stack$ -- 0
+substring$ -- 11871
+swap$ -- 988
+text.length$ -- 192
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 20
+while$ -- 357
+width$ -- 36
+write$ -- 373
+(There were 3 error messages)

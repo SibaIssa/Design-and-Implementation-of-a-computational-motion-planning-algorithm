@@ -1,0 +1,145 @@
+%!TEX TS-program = xelatex
+
+\documentclass[10pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{svg}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage{geometry} 
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+
+\usepackage{floatrow}
+
+
+\usepackage{hyperref}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage[calendar=gregorian,numerals=maghrib]{arabic}
+\setotherlanguage{english}
+\setmainfont{Simplified Arabic}
+%%% Coloring the comment as blue
+
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\newfontfamily\englishfont{Times New Roman}
+
+\newfontfamily\arabicfont[Script = Arabic]{Simplified Arabic} % Replace 'Simplified Arabic' with a font from your system
+\begin{document}
+	\setstretch{1.4}
+	
+	\includepdf[pages=-]{01-cover.pdf}
+	
+	\begin{english}
+		\begin{center}
+			\textbf{Abstract}
+		\end{center}
+		\input{01-abstract.tex}	
+		\pagebreak
+	\end{english}
+	
+	
+	
+	\section{موجز البحث}
+	
+	\input{03-section.tex}
+	
+	\tableofcontents
+	
+	
+	\chapter{مقدمة البحث}
+	
+	\section{خلفية وأهداف البحث}
+	\input{05-section.tex}
+	\section{الدراسات المرجعية}
+	\input{06-section.tex}
+	
+	\section{أهداف المشروع}
+	\input{07-section.tex}
+	
+	\section{مخطط العمل}
+	\input{08-section.tex}
+	
+	\section{مخطط الأطروحة}
+	\input{09-section.tex}
+	
+	
+	\chapter{الدراسة الرياضية والنمذجة}
+	
+	
+	\section{تخطيط المسار لروبوت واحد باستخدام الطرق التقليدية}
+	
+	\input{10-section.tex}
+	
+	\section{تعميم الحل للأسراب}
+	
+	\input{10-section-2.tex}
+	
+	\section{تخطيط المسار عن طريق المعادلات التفاضلية الجزئية لحركة الموائع}
+	
+	\input{11-section.tex}
+	
+	\section{التغذية الراجعة لشعاع حالة الروبوتات}
+	\input{12-section.tex}
+	
+	\section{النموذج الرياضي العام للروبوت}
+	
+	\input{13-section.tex}
+	
+	\section{دراسة العجلات}
+	\input{14-section.tex}
+	
+	\chapter{بنية النظام الصلبة والبرمجية}
+	
+	\section{مقدمة}
+	\input{15-section-0.tex}
+	
+	\section{فضاء العمل}
+	\input{15-section-1.tex}
+	
+	\section{بنية النظام الصلبة}
+	\input{15-section.tex}
+	\input{16-section.tex}
+	\section{بنية النظام البرمجية}
+	
+	\subsection{نظرة عامة}
+	\input{20-section.tex}
+	
+	\subsection{البنية البرمجية للروبوت منخفضة المستوى}
+	\input{22-section.tex}
+	
+	
+	\chapter{النتائج}
+	
+	بعد برمجة كل طرق توليد المسار المذكورة في الملف سيتم إجراء ما تبقى من تجارب تفريقية خلال الاسبوع القادم، حسث يجب إجراء جميع التجارب في ظروف عمل أقرب إلى المثالية وتضمن التطابق بين التكرارات. 
+	
+	يتم حاليا تحضير النتائج لكتابة الدرستين التاليتين:
+	
+	\begin{itemize}
+		\item الدراسة الأولى عن تصميم وتنفيذ منصة سرب روبوتات لأغراض بحثية
+		\item الدراسة الثانية عن مقارنة بين طريقة تخطيط المسار المقترحة والطرق الشهيرة في الدراسات المرجعية باستخدام المنصة المنجزة
+	\end{itemize}
+	
+	
+	\bibliographystyle{vancouver}
+	\begin{english}
+		\bibliography{ref}
+	\end{english}
+	
+	\listoffigures
+	\listoftables
+	\chapter{الملحقات}
+	\section{AVR C Code Referece Manual}
+	
+	\input{00-avr_refman.tex}
+	
+\end{document}

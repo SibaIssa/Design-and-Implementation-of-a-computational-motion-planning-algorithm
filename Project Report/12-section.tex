@@ -1,0 +1,23 @@
+لإيجاد مواقع الروبوتات سوف يتم استخدام نظام التعريف ArUco، حيث تتم طباعة عدة QR codes ولصقها على سطح كل روبوت. بعد القيام بعملية معايرة لبارامترات الكاميرا الـIntrinsic والـExtrinsic يمكن أيجاد المصفوفة $ \mathbb{C} $ المستخدمة في \ref{eq:cameramatrix}.
+
+\begin{equation}\label{eq:cameramatrix}
+\mathbb{P}=\left(\begin{matrix}p_x\\p_y\\1\\\end{matrix}\right)=\mathbb{C}\times\left(\begin{matrix}r_x\\r_y\\r_z\\1\\\end{matrix}\right)=\mathbb{C}\times\mathbb{R}
+\end{equation}
+حيث يمثل $ \mathbb{P} $ موضع الروبوت في إحداثيات حساس الكاميرا، و$ \mathbb{R}  $إحداثيات الروبوت في الاحداثيات الأرضية، و$  \mathbb{C}  $ مصفوفة الكاميرا (Camera Matrix).
+
+
+منها يمكن نقل كل بكسل من بكسلات الكاميرا الى الاحداثيات الأرضية باستخدام الـpseudo-inverse للمصفوفة $\mathbb{C}$. نذكر هنا أن المصفوفة $ \mathbb{C} $ :
+
+\begin{equation}
+\mathbb{C}=\mathbb{K}\times\left(\mathbb{R}\ |\ {T}\right)
+\end{equation}
+
+حيث تمثل المصفوفة $ \left(\mathbb{R}\ |\ {T}\right)  $ التحويل المتجانس الذي ينقل $ \mathbb{R}  $ الى احداثيات الكاميرا، والمصفوفة $ \mathbb{K}  $ تقاس من بارامترات العدسة والحساس وتشكّل كالتالي:
+\begin{equation}
+\mathbb{K}=\left(\begin{matrix}f_x&0&0\\s&f_y&0\\c_x&c_y&1\\\end{matrix}\right)
+\end{equation}
+
+يمثل كل من $ f_x, f_y $ البعد البؤري للعدسة، وs معامل انحراف الحساس، و $c_x, c_y$ يمثلان مركز الحساس بوحدات البكسل.
+نذكر هنا أنه من الواجب القيام بعملية معايرة تسبق مرحلة نقل كل نقطة من نقاط الكاميرا الى الاحداثيات الواقعية وذلك لتقريب الكاميرا الموجودة أقرب ما يمكن الى نموذج الـ pinhole\ camera الموجود في المعادلات السابقة.
+
+

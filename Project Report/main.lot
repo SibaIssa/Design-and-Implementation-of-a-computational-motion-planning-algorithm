@@ -1,0 +1,24 @@
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces الأبعاد التنسيقية وأبعاد النظام\relax }}{14}{table.caption.2}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces خرائط لحل كل من خوارزميتي البيان.\relax }}{22}{table.caption.11}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces عملية حساب المسار في طريقة الحقل الكموني\relax }}{24}{table.caption.12}%
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\contentsline {table}{\numberline {2.3}{\ignorespaces أداء الخوارزمية لعدة خرائط\relax }}{29}{table.caption.14}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces عملية حساب المسار في الحالة الأولى من الحل\relax }}{31}{table.caption.16}%
+\addvspace {10\p@ }
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\contentsline {table}{\numberline {3.1}{\ignorespaces جدول مقارنة بين وحدات الاتصال المختلفة\relax }}{43}{table.caption.27}%
+\addvspace {10\p@ }
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\addvspace {10\p@ }

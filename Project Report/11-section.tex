@@ -1,0 +1,110 @@
+\subsection{الخوارزمية المقترحة لروبوت واحد}
+
+تعتمد الخوارزمية المقترحة لإنتاج طريق يسلكه الروبوت في بيئته على انشاء حقل سرعة يمكن للروبوت الانحدار فيه مشكلاً طريقه الخاص. نعتمد هنا على انشاء هذا الحقل عن طريق حل المعادلة التفاضلية الجزئية لتدفق السوائل الغير قابلة للانضغاط من نقطة الى أخرى.
+أولاً، نكتب معادلات نافيير-ستوكس بشكلها المتجهي الخاصة بالموائع غير القابلة للانضغاط:
+
+
+
+
+\begin{equation}
+ \nabla \cdot \vec{\upsilon} = 0  
+\end{equation}
+
+\begin{equation}
+ \frac{\partial \upsilon }{\partial t} +  \left(\vec{\upsilon }\cdot\nabla\right)\vec{\upsilon } = -\frac{1}{\rho}\nabla p+\nu\nabla^2\vec{\upsilon } 
+\end{equation}
+
+حيث $\vec{\upsilon } = (u,v,w)^T$ مركبات السرعة على المحاور الإحداثية الثلاث.
+
+المعادلة الأولى تمثل انحفاظ الكتلة عند ثبات الكثافة (عدم الانضغاطية)، وتمثل المعادلة الثانية انحفاظ العزم. في الموائع غير الانضغاطية، معادلة انحفاظ الكتلة تخلق قيد كينيماتيكي يتطلب من حقل الضغط أن يتغير بشكل يسمح ل معدل تغير السرعة $\nabla \cdot \vec{\upsilon}$ بالانعدام في كل نقاط الفضاء. يمكن بناء حقل الضغط بأخذ تباعد (divergence) معادلة العزم، بعد أخد هذه الخطوة تظهر معادلة بواسون للضغط.
+
+
+نعيد كتابة معادلات نافيير-ستوكس بشكل مريح للتقطيع وذلك بعد تعويض $ w=0 $:
+
+\begin{equation}\label{eq:11:3}
+\frac{\partial u}{\partial t}+u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial x}+\nu\left(\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}\right)
+\end{equation}
+
+\begin{equation}\label{eq:11:4}
+\frac{\partial v}{\partial t}+u\frac{\partial v}{\partial x}+v\frac{\partial v}{\partial y}=-\frac{1}{\rho}\frac{\partial p}{\partial y}+\nu\left(\frac{\partial^2v}{\partial x^2}+\frac{\partial^2v}{\partial y^2}\right)
+\end{equation}
+
+\begin{equation}\label{eq:11:5}
+\frac{\partial^2p}{\partial x^2}+\frac{\partial^2p}{\partial y^2}=-\rho\left(\frac{\partial u}{\partial x}\frac{\partial u}{\partial x}+2\frac{\partial u}{\partial y}\frac{\partial v}{\partial x}+\frac{\partial v}{\partial y}\frac{\partial v}{\partial y}\right)
+\end{equation}
+
+
+نتجه الآن لإنشاء mesh خاص بالمكان يسمح لنا بحل هذه المعادلات بيسر. اتجهنا لاستخدام تقطيع المكان الى مربعات لسهولة برمجتها. تظهر الصورة في الملحق رقم 1 تقطيع لحلبة مولدة عشوائياً. بعد تقطيع الحلبة يمكن بسهولة نقل \ref{eq:11:3} , \ref{eq:11:4} , \ref{eq:11:5} الى المتقطع بالشكل:
+
+\begin{equation}
+\begin{matrix}&\frac{u_{i,j}^{n+1}-u_{i,j}^n}{\Delta t}+u_{i,j}^n\frac{u_{i,j}^n-u_{i-1,j}^n}{\Delta x}+v_{i,j}^n\frac{u_{i,j}^n-u_{i,j-1}^n}{\Delta y}=\\&-\frac{1}{\rho}\frac{p_{i+1,j}^n-p_{i-1,j}^n}{2\Delta x}+\nu\left(\frac{u_{i+1,j}^n-2u_{i,j}^n+u_{i-1,j}^n}{\Delta x^2}+\frac{u_{i,j+1}^n-2u_{i,j}^n+u_{i,j-1}^n}{\Delta y^2}\right)\\\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}&\frac{v_{i,j}^{n+1}-v_{i,j}^n}{\Delta t}+u_{i,j}^n\frac{v_{i,j}^n-v_{i-1,j}^n}{\Delta x}+v_{i,j}^n\frac{v_{i,j}^n-v_{i,j-1}^n}{\Delta y}=\\&-\frac{1}{\rho}\frac{p_{i,j+1}^n-p_{i,j-1}^n}{2\Delta y}+\nu\left(\frac{v_{i+1,j}^n-2v_{i,j}^n+v_{i-1,j}^n}{\Delta x^2}+\frac{v_{i,j+1}^n-2v_{i,j}^n+v_{i,j-1}^n}{\Delta y^2}\right)\\\end{matrix}
+\end{equation}
+
+
+
+
+\begin{equation}
+\begin{matrix}
+
+\frac{p_{i+1,j}^n-2p_{i,j}^n+p_{i-1,j}^n}{\Delta x^2}+\frac{p_{i,j+1}^n-2p_{i,j}^n+p_{i,j-1}^n}{\Delta y^2} =
+
+
+\\
+
+\frac{\rho}{\Delta t}\left(\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x}+\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}\right)-\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x}\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x} - 
+\\
+2\rho \frac{u_{i,j+1}-u_{i,j-1}}{2\Delta y}\frac{v_{i+1,j}-v_{i-1,j}}{2\Delta x}-\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}
+
+\end{matrix}
+\end{equation}
+
+بإعادة ترتيب المعادلات السابقة يمكن الحصول على الأطراف المتقدمة زمنياً:
+
+\begin{equation}
+\begin{matrix}u_{i,j}^{n+1}=u_{i,j}^n-u_{i,j}^n\frac{\Delta t}{\Delta x}(u_{i,j}^n-u_{i-1,j}^n)-v_{i,j}^n\frac{\Delta t}{\Delta y}(u_{i,j}^n-u_{i,j-1}^n)\\-\frac{\Delta t}{\rho2\Delta x}(p_{i+1,j}^n-p_{i-1,j}^n)\\+\nu\left(\frac{\Delta t}{\Delta x^2}\left(u_{i+1,j}^n-2u_{i,j}^n+u_{i-1,j}^n\right)+\frac{\Delta t}{\Delta y^2}\left(u_{i,j+1}^n-2u_{i,j}^n+u_{i,j-1}^n\right)\ \right)\\\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}v_{i,j}^{n+1}=v_{i,j}^n-u_{i,j}^n\frac{\Delta t}{\Delta x}\left(v_{i,j}^n-v_{i-1,j}^n\right)-v_{i,j}^n\frac{\Delta t}{\Delta y}\left(v_{i,j}^n-v_{i,j-1}^n\right)\ \ \\-\frac{\Delta t}{\rho2\Delta y}\left(p_{i,j+1}^n-p_{i,j-1}^n\right)\\+\nu\left(\frac{\Delta t}{\Delta x^2}\left(v_{i+1,j}^n-2v_{i,j}^n+v_{i-1,j}^n\right)+\frac{\Delta t}{\Delta y^2}\left(v_{i,j+1}^n-2v_{i,j}^n+v_{i,j-1}^n\right)\ \right)\\\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+p_{i,j}^{n+1}=\frac{\left(p_{i+1,j}^n+p_{i-1,j}^n\right)\Delta y^2+\left(p_{i,j+1}^n+p_{i,j-1}^n\right)\Delta x^2}{2\left(\Delta x^2+\Delta y^2\right)}\ -\frac{\rho\Delta x^2\Delta y^2}{2\left(\Delta x^2+\Delta y^2\right)}
+\\
+\times\biggl[\frac{1}{\Delta t}\left(\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x}+\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}\right)-\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x}\frac{u_{i+1,j}-u_{i-1,j}}{2\Delta x}\\-2\frac{u_{i,j+1}-u_{i,j-1}}{2\Delta y}\frac{v_{i+1,j}-v_{i-1,j}}{2\Delta x}-\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}\frac{v_{i,j+1}-v_{i,j-1}}{2\Delta y}\biggr]
+
+\end{matrix}
+\end{equation}
+
+
+\subsubsection{شروط المسألة: }
+\begin{itemize}
+	\item السرعة الابتدائية والضغط الابتدائي معدومان.
+	\item السرعة معدومة عند الجدران .
+	\item مشتق الضغط المكاني معدوم عند الجدران.
+	\item الضغط +a عند نقطة انطلاق الروبوت -a عند الهدف.
+	\item الضغط صفر عند الجدران.
+\end{itemize}
+
+بالحل الرقمي الـiterative يمكن الحصول على الحالة الثابتة steady state للمائع بعد عدد معين من التكرارات حيث يتم حساب السرعات المتقدمة بزمن قدره $\Delta t$. يمكن اختبار الوصول الى الحالة الثابتة من عدمه عن طريق معاينة $ \frac{dv}{dt}\ ,\frac{du}{dt} $ في كل iteration وانهاء الحساب عند هبوطه عن حد معين $ \epsilon $. عند الحصول على الحل النهائي نقوم بجعل الروبوت ينحدر باستخدام الحقل المتجهي الناتج موصلاً نفسه الى الهدف بشكل مباشر.
+عند انشاء حقل السرعة لخريطة بأبعاد $ 100\times100  $ يستغرق الحاسوب الموصوف في ما متوسطه 500 ميلي ثانية. نذكر هنا أن هذا الزمن لا يعبر عن أصغر زمن يمكن للنظام انتاج حقل به، فهو لم يتعرض لأمثلة من هذه النواحي بعد:
+\begin{itemize}
+	\item شكل التقطيع.
+	\item المعاملات الفيزيائية للمائع.
+	\item التسريع باستخدام العتاد الصلب \textenglish{(Hardware Acceleration)}.
+	
+\end{itemize}
+
+
+نوضح فيما يلي أمثلة عن حل الخوارزمية لعدة فضاءات عمل:
+\input{11-fig1.tex}
+
+\subsection{الخوارزمية المقترحة للسرب}
+
+\input{11-section-2.tex}
+

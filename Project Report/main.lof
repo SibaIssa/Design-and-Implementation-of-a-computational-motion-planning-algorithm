@@ -1,0 +1,40 @@
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces مثال على الدوال التدفقية\relax }}{15}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces التدفق المولد باستخدام الخوارزمية $ lattice Boltzman $. يمكن ملاحظة السلوك غير الفيزيائي للسائل بالنظر الى تداخل السائل مع الجدران.\relax }}{16}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces الأمواج المتقدمة والمتأخرة في العمل\cite {b14}\relax }}{17}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \relax }}{19}{figure.caption.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces تحويل فضاء العمل المقطع إلى بيان غير موجه\relax }}{22}{figure.caption.8}%
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces مثال عن الطريقة المقترحة\relax }}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces القوى المتبادلة بين الروبوتات ممثلة كعناصر ميكانيكية\relax }}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces تصميم عجلات الروبوت الناتج\relax }}{37}{figure.caption.21}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces إخراج ثلاثي الأبعاد لمنصة العمل\relax }}{40}{figure.caption.22}%
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces التصميم باستخدام الحاسب لكل من الطبقتين العلوية والسفلية\relax }}{44}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces المنتج النهائي بعد تصنيع الدارة\relax }}{45}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces العطب الناتج عن التصنيع\relax }}{45}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces الهيكل الخارجي للروبوت\relax }}{46}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces مثال يوضح مقارنة بين سوء وجودة تصنيع العجلات\relax }}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces استجابة المقاطعات الضّوئيّة\relax }}{47}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces التقريب إلى نظام درجة أولى\relax }}{47}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces محاكاةاستجابة الـ AVR للمقاطعة الضّوئيّة\relax }}{48}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces طبقة بلاستيكية لتحسن قراءة المقطعات\relax }}{48}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \relax }}{49}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \relax }}{50}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces شكل توضيحي للأجزاء الأساسيّة في بروتوكول نقل الرّسائل MQTT\relax }}{50}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces صورة توضيحيّة لآليّة عمل محددات ArUco\relax }}{52}{figure.caption.42}%
+\addvspace {10\p@ }
+\selectlanguage *{english}
+\selectlanguage *[variant=us,ordinalmonthday=false]{english}
+\selectlanguage *[calendar=gregorian,numerals=maghrib]{arabic}
+\addvspace {10\p@ }
