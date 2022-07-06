@@ -1,7 +1,5 @@
 # Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-
 ## This repositoery is based on the graduation project for Bachelor Degree in Mechatronics Engineering at Tishreen University, Syria - Summer 2021
-'''
-
 Formation of non-holonomic swarm robots has received a lot of considerations in both academia and
 industry over last two decades. Many path planning methods produce collision-free paths for a group of
 multiple robots, but many of them are computationally expensive and complex to implement and develop.
