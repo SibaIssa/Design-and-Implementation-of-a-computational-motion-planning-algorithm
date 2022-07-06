@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=L298 Old Footprint=TO127P2020X500X2100-15 New Footprint=L298N
+Change component parameters: Designator = "L298" ("L298"); Footprint = "TO127P2020X500X2100-15"; UniqueID = "\CZQWPOFY" ("\CZQWPOFY")

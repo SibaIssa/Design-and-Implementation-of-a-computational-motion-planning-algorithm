@@ -1,0 +1,8 @@
+Added Component: Designator=CH(1S_Charger)
+Added Pin To Net: NetName=B+ Pin=CH-B+
+Added Pin To Net: NetName=NetBTR_2 Pin=CH-B-
+Added Pin To Net: NetName=GND Pin=CH-GND
+Added Pin To Net: NetName=+5 Pin=CH-Vout
+Added Pin To Net: NetName=Netj8_1 Pin=j8-1
+Added Net: Name=Netj8_1
+Added Member To Class: ClassName=Power_Sheet Member=Component CH charger

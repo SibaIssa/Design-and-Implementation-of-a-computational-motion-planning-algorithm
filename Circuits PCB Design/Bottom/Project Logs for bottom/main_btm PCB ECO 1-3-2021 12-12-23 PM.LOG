@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=NetD1_A Pin=M1-1
+Removed Pin From Net: NetName=NetD2_A Pin=M1-2
+Removed Pin From Net: NetName=+5 Pin=M1-3
+Removed Pin From Net: NetName=GND Pin=M1-4
+Removed Pin From Net: NetName=PM1 Pin=M1-5
+Removed Pin From Net: NetName=PM1 Pin=M1-6
+Removed Pin From Net: NetName=NetD3_A Pin=M2-1
+Removed Pin From Net: NetName=NetD4_A Pin=M2-2
+Removed Pin From Net: NetName=+5 Pin=M2-3
+Removed Pin From Net: NetName=GND Pin=M2-4
+Removed Pin From Net: NetName=PM2 Pin=M2-5
+Removed Pin From Net: NetName=PM2 Pin=M2-6
+Removed Member From Class: ClassName=Motors_Sheet Member=M1
+Removed Member From Class: ClassName=Motors_Sheet Member=M2
+Added Component: Designator=j1(pin6headerF)
+Added Component: Designator=j3(pin6headerF)
+Added Component: Designator=MA(JST_B6B)
+Added Component: Designator=MB(JST_B6B)
+Added Pin To Net: NetName=+5 Pin=j1-1
+Added Pin To Net: NetName=GND Pin=j1-4
+Added Pin To Net: NetName=GND Pin=j1-5
+Added Pin To Net: NetName=GND Pin=j1-6
+Added Pin To Net: NetName=+5 Pin=j3-1
+Added Pin To Net: NetName=+5 Pin=j3-2
+Added Pin To Net: NetName=+5 Pin=j3-3
+Added Pin To Net: NetName=GND Pin=j3-6
+Added Pin To Net: NetName=PM1 Pin=MA-1
+Added Pin To Net: NetName=PM1 Pin=MA-2
+Added Pin To Net: NetName=GND Pin=MA-3
+Added Pin To Net: NetName=+5 Pin=MA-4
+Added Pin To Net: NetName=NetD2_A Pin=MA-5
+Added Pin To Net: NetName=NetD1_A Pin=MA-6
+Added Pin To Net: NetName=PM2 Pin=MB-1
+Added Pin To Net: NetName=PM2 Pin=MB-2
+Added Pin To Net: NetName=GND Pin=MB-3
+Added Pin To Net: NetName=+5 Pin=MB-4
+Added Pin To Net: NetName=NetD4_A Pin=MB-5
+Added Pin To Net: NetName=NetD3_A Pin=MB-6
+Added Member To Class: ClassName=connection_Sheet Member=Component j1 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j3 100th
+Added Member To Class: ClassName=Motors_Sheet Member=Component MA JST_B6B
+Added Member To Class: ClassName=Motors_Sheet Member=Component MB JST_B6B
