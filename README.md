@@ -25,4 +25,4 @@ central computer from a camera that is fixed above the robots.
 - Comparing between our suggested algorithm and the famous algorithms in the literature (A*, Dijkstra, Potential Field) 
 - Extracting results that confirm the validity of the proposed algorithm and its superiority over conventional and non-traditional algorithms in terms of path-finding inevitability and other factors.
 
-[![Watch the video](https://www.dropbox.com/s/yim75ajkh6q3i72/video.mp4?dl=0)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.dropbox.com/s/yim75ajkh6q3i72/video.mp4?dl=0)
