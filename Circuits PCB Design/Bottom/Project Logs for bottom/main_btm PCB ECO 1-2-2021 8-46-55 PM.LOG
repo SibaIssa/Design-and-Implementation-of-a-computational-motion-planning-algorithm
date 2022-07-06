@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=j1 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j2 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j3 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j4 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j5 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j6 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j7 Old Footprint=pin6header New Footprint=pin6headerF
+Change Component Footprint: Designator=j8 Old Footprint=pin6header New Footprint=pin6headerF
+Change component parameters: Designator = "j1" ("j1"); Footprint = "pin6header"; UniqueID = "\SVAMPULW" ("\SVAMPULW")
+Change component parameters: Designator = "j2" ("j2"); Footprint = "pin6header"; UniqueID = "\NIYHWNAD" ("\NIYHWNAD")
+Change component parameters: Designator = "j3" ("j3"); Footprint = "pin6header"; UniqueID = "\EUCELHZE" ("\EUCELHZE")
+Change component parameters: Designator = "j4" ("j4"); Footprint = "pin6header"; UniqueID = "\ADWCPXRF" ("\ADWCPXRF")
+Change component parameters: Designator = "j5" ("j5"); Footprint = "pin6header"; UniqueID = "\IFFDCWEM" ("\IFFDCWEM")
+Change component parameters: Designator = "j6" ("j6"); Footprint = "pin6header"; UniqueID = "\HIQLVYMP" ("\HIQLVYMP")
+Change component parameters: Designator = "j7" ("j7"); Footprint = "pin6header"; UniqueID = "\BXKWJJJU" ("\BXKWJJJU")
+Change component parameters: Designator = "j8" ("j8"); Footprint = "pin6header"; UniqueID = "\EDJUXKOI" ("\EDJUXKOI")

@@ -1,0 +1,37 @@
+Added Component: Designator=j8(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=j2-1
+Added Pin To Net: NetName=GND Pin=j2-2
+Added Pin To Net: NetName=Netj2_3 Pin=j2-3
+Added Pin To Net: NetName=Netj2_4 Pin=j2-4
+Added Pin To Net: NetName=NetENA_2 Pin=j4-3
+Added Pin To Net: NetName=NetENB_2 Pin=j4-4
+Added Pin To Net: NetName=GND Pin=j4-5
+Added Pin To Net: NetName=GND Pin=j4-6
+Added Pin To Net: NetName=Netj5_1 Pin=j5-1
+Added Pin To Net: NetName=+5 Pin=j5-2
+Added Pin To Net: NetName=Netj5_3 Pin=j5-3
+Added Pin To Net: NetName=Netj5_4 Pin=j5-4
+Added Pin To Net: NetName=Netj5_5 Pin=j5-5
+Added Pin To Net: NetName=+5 Pin=j5-6
+Added Pin To Net: NetName=Netj6_1 Pin=j6-1
+Added Pin To Net: NetName=Netj6_2 Pin=j6-2
+Added Pin To Net: NetName=Netj6_3 Pin=j6-3
+Added Pin To Net: NetName=Netj6_4 Pin=j6-4
+Added Pin To Net: NetName=+5 Pin=j6-5
+Added Pin To Net: NetName=+5 Pin=j6-6
+Added Pin To Net: NetName=Netj7_1 Pin=j7-1
+Added Pin To Net: NetName=Netj7_2 Pin=j7-2
+Added Pin To Net: NetName=Netj7_3 Pin=j7-3
+Added Pin To Net: NetName=+5 Pin=j7-5
+Added Pin To Net: NetName=+5 Pin=j7-6
+Added Pin To Net: NetName=+5 Pin=j8-3
+Added Pin To Net: NetName=+5 Pin=j8-4
+Added Pin To Net: NetName=+5 Pin=j8-5
+Added Pin To Net: NetName=+5 Pin=j8-6
+Added Member To Class: ClassName=connection_Sheet Member=Component j2 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j4 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j5 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j6 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j7 100th
+Added Member To Class: ClassName=connection_Sheet Member=Component j8 100th

@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=RESET Pin=j3-3
+Removed Pin From Net: NetName=NetESP_TX Pin=j5-1
+Removed Pin From Net: NetName=NetESP_RX Pin=j5-2
+Removed Pin From Net: NetName=Netj3_4 Pin=j6-5
+Removed Pin From Net: NetName=Netj3_4 Pin=j7-5
+Added Component: Designator=CX1(cap100)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=CX2(cap100)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=X(XTAL1)
+Added Pin To Net: NetName=GND Pin=CX1-1
+Added Pin To Net: NetName=XTAL1 Pin=CX1-2
+Added Pin To Net: NetName=GND Pin=CX2-1
+Added Pin To Net: NetName=XTAL2 Pin=CX2-2
+Added Pin To Net: NetName=Netj4_1 Pin=ISPJ-1
+Added Pin To Net: NetName=Netj5_5 Pin=ISPJ-2
+Added Pin To Net: NetName=Netj4_2 Pin=ISPJ-3
+Added Pin To Net: NetName=GND Pin=j1-4
+Added Pin To Net: NetName=GND Pin=j1-5
+Added Pin To Net: NetName=GND Pin=j1-6
+Added Pin To Net: NetName=+5 Pin=j3-1
+Added Pin To Net: NetName=+5 Pin=j3-2
+Added Pin To Net: NetName=+5 Pin=j3-3
+Added Pin To Net: NetName=+5 Pin=j5-1
+Added Pin To Net: NetName=+5 Pin=j5-2
+Added Pin To Net: NetName=+5 Pin=j6-5
+Added Pin To Net: NetName=+5 Pin=j7-5
+Added Pin To Net: NetName=Netj4_1 Pin=JD1-1
+Added Pin To Net: NetName=Netj5_5 Pin=JD2-1
+Added Pin To Net: NetName=Netj4_2 Pin=JD3-1
+Added Pin To Net: NetName=Netj4_1 Pin=U-15
+Added Pin To Net: NetName=Netj5_5 Pin=U-16
+Added Pin To Net: NetName=Netj4_2 Pin=U-17
+Added Pin To Net: NetName=PC3 Pin=U-26
+Added Pin To Net: NetName=PC4 Pin=U-27
+Added Pin To Net: NetName=PC5 Pin=U-28
+Added Pin To Net: NetName=XTAL1 Pin=X-1
+Added Pin To Net: NetName=XTAL2 Pin=X-2
+Change Net Name : Old Net Name=Netj4_1 New Net Name=MOSI
+Change Net Name : Old Net Name=Netj4_2 New Net Name=PB5
+Change Net Name : Old Net Name=Netj5_5 New Net Name=MISO
+Added Member To Class: ClassName=main Member=Component CX1 cap disk
+Added Member To Class: ClassName=main Member=Component CX2 cap disk
+Added Member To Class: ClassName=ESP8266_Sheet Member=Component ESP D1
+Added Member To Class: ClassName=main Member=Component X XTAL
+Added Room: Name=connection_Sheet
+Added Room: Name=ESP8266_Sheet
+Added Room: Name=main
+Added Room: Name=Motors_Sheet
+Added Room: Name=Programmer_Sheet

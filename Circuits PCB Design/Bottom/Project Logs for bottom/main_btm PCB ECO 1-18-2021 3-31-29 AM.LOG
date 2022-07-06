@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=E1-1
+Removed Pin From Net: NetName=GND Pin=E2-1
+Removed Pin From Net: NetName=GND Pin=E3-1
+Removed Pin From Net: NetName=GND Pin=E4-1
+Added Pin To Net: NetName=GND Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E2-2
+Added Pin To Net: NetName=GND Pin=E3-2
+Added Pin To Net: NetName=GND Pin=E4-2
+Added Pin To Net: NetName=NetE1_1 Pin=E1-1
+Added Pin To Net: NetName=NetE1_1 Pin=Re1-1
+Added Net: Name=NetE1_1
+Added Pin To Net: NetName=NetE2_1 Pin=E2-1
+Added Pin To Net: NetName=NetE2_1 Pin=Re3-1
+Added Net: Name=NetE2_1
+Added Pin To Net: NetName=NetE3_1 Pin=E3-1
+Added Pin To Net: NetName=NetE3_1 Pin=Re5-1
+Added Net: Name=NetE3_1
+Added Pin To Net: NetName=NetE4_1 Pin=E4-1
+Added Pin To Net: NetName=NetE4_1 Pin=Re7-1
+Added Net: Name=NetE4_1
+Added Member To Class: ClassName=Encoder_Sheet Member=Component E3 100th

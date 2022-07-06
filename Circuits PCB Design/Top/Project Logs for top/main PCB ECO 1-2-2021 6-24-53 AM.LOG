@@ -1,0 +1,7 @@
+Added Component: Designator=j7(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Netj7_1 Pin=j7-1
+Added Pin To Net: NetName=Netj7_2 Pin=j7-2
+Added Pin To Net: NetName=+5 Pin=j7-5
+Added Pin To Net: NetName=+5 Pin=j7-6
+Added Member To Class: ClassName=connection_Sheet Member=Component j7 100th

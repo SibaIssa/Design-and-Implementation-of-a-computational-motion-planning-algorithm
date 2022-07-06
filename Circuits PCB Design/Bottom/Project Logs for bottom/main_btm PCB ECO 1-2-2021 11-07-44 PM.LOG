@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetD1_A Pin=D1-A
+Removed Pin From Net: NetName=Vss Pin=D1-C
+Change Component Footprint: Designator=D2 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D3 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D4 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D5 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D6 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D7 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Footprint: Designator=D8 Old Footprint=DIOM5227X270N New Footprint=1N4007
+Change Component Comment : Designator=D2 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D3 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D4 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D5 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D6 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D7 Old Comment=S1M New Comment=M7
+Change Component Comment : Designator=D8 Old Comment=S1M New Comment=M7
+Change component parameters: Designator = "D2" ("D2"); Footprint = "DIOM5227X270N"; UniqueID = "\EOGMMMBV" ("\EOGMMMBV")
+Change component parameters: Designator = "D3" ("D3"); Footprint = "DIOM5227X270N"; UniqueID = "\ZPRAQJPC" ("\ZPRAQJPC")
+Change component parameters: Designator = "D4" ("D4"); Footprint = "DIOM5227X270N"; UniqueID = "\EPAASDEY" ("\EPAASDEY")
+Change component parameters: Designator = "D5" ("D5"); Footprint = "DIOM5227X270N"; UniqueID = "\ARJGZCVW" ("\ARJGZCVW")
+Change component parameters: Designator = "D6" ("D6"); Footprint = "DIOM5227X270N"; UniqueID = "\YTKDQRAH" ("\YTKDQRAH")
+Change component parameters: Designator = "D7" ("D7"); Footprint = "DIOM5227X270N"; UniqueID = "\SWJQAJDP" ("\SWJQAJDP")
+Change component parameters: Designator = "D8" ("D8"); Footprint = "DIOM5227X270N"; UniqueID = "\YEECXJBC" ("\YEECXJBC")
+Added Component: Designator=D1(1N4007)
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=Vss Pin=D1-C

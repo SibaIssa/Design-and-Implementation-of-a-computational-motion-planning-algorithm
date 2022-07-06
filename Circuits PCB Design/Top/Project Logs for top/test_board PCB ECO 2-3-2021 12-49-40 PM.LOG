@@ -1,0 +1,262 @@
+Added Component: Designator=B3(JUMPER2)
+Added Component: Designator=B4(JUMPER2)
+Added Component: Designator=B5(JUMPER2)
+Added Component: Designator=CX1(cap100)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=CX2(cap100)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=D1(LED3_2X1_6)
+Added Component: Designator=D2(LED3_2X1_6)
+Added Component: Designator=D3(LED3_2X1_6)
+Added Component: Designator=D4(LED3_2X1_6)
+Added Component: Designator=ENA(JUMPER2)
+Added Component: Designator=ENB(JUMPER2)
+Added Component: Designator=ESP(WEMOS_D1_MINI)
+Added Component: Designator=ISPJ(JST_B6B)
+Added Component: Designator=j2(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=j4(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=j5(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=j6(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=j7(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=j8(pin6header)
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Added Component: Designator=PWR(LED3_2X1_6)
+Added Component: Designator=RD1(1206)
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=RD2(1206)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RD3(1206)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RD4(1206)
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=RENA(1206)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=RENB(1206)
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=RPWR(1206)
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=RRST(1206)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=RS1(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS2(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS3(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS4(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS5(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS6(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS7(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RS8(1206)
+Add component (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RST_SW(push_button)
+Added Component: Designator=RSW1(1206)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=RSW2(1206)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=RSW3(1206)
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(PCBComponent_1)
+Added Component: Designator=U(QFP80P900X900X120-32N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ATMEGA328P-AU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TQFP-32 Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip/view-part/44280/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X(XTAL1)
+Added Pin To Net: NetName=+5 Pin=ESP-5V
+Added Pin To Net: NetName=+5 Pin=ISPJ-3
+Added Pin To Net: NetName=+5 Pin=j5-2
+Added Pin To Net: NetName=+5 Pin=j5-6
+Added Pin To Net: NetName=+5 Pin=j6-5
+Added Pin To Net: NetName=+5 Pin=j6-6
+Added Pin To Net: NetName=+5 Pin=j7-5
+Added Pin To Net: NetName=+5 Pin=j7-6
+Added Pin To Net: NetName=+5 Pin=j8-3
+Added Pin To Net: NetName=+5 Pin=j8-4
+Added Pin To Net: NetName=+5 Pin=j8-5
+Added Pin To Net: NetName=+5 Pin=j8-6
+Added Pin To Net: NetName=+5 Pin=RD1-2
+Added Pin To Net: NetName=+5 Pin=RD2-2
+Added Pin To Net: NetName=+5 Pin=RD3-2
+Added Pin To Net: NetName=+5 Pin=RD4-2
+Added Pin To Net: NetName=+5 Pin=RENA-2
+Added Pin To Net: NetName=+5 Pin=RENB-2
+Added Pin To Net: NetName=+5 Pin=RPWR-2
+Added Pin To Net: NetName=+5 Pin=RRST-2
+Added Pin To Net: NetName=+5 Pin=RSW1-2
+Added Pin To Net: NetName=+5 Pin=RSW2-2
+Added Pin To Net: NetName=+5 Pin=RSW3-2
+Added Pin To Net: NetName=+5 Pin=U-4
+Added Pin To Net: NetName=+5 Pin=U-6
+Added Pin To Net: NetName=+5 Pin=U-18
+Added Pin To Net: NetName=+5 Pin=U-20
+Added Net: Name=+5
+Added Pin To Net: NetName=GND Pin=CX1-1
+Added Pin To Net: NetName=GND Pin=CX2-1
+Added Pin To Net: NetName=GND Pin=ENA-1
+Added Pin To Net: NetName=GND Pin=ENB-1
+Added Pin To Net: NetName=GND Pin=ESP-GND
+Added Pin To Net: NetName=GND Pin=ISPJ-2
+Added Pin To Net: NetName=GND Pin=j2-1
+Added Pin To Net: NetName=GND Pin=j2-2
+Added Pin To Net: NetName=GND Pin=j4-5
+Added Pin To Net: NetName=GND Pin=j4-6
+Added Pin To Net: NetName=GND Pin=PWR-c
+Added Pin To Net: NetName=GND Pin=RS1-1
+Added Pin To Net: NetName=GND Pin=RS2-1
+Added Pin To Net: NetName=GND Pin=RS3-1
+Added Pin To Net: NetName=GND Pin=RS4-1
+Added Pin To Net: NetName=GND Pin=RS5-1
+Added Pin To Net: NetName=GND Pin=RS6-1
+Added Pin To Net: NetName=GND Pin=RS7-1
+Added Pin To Net: NetName=GND Pin=RS8-1
+Added Pin To Net: NetName=GND Pin=RST_SW-b1
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=GND Pin=SW1-5
+Added Pin To Net: NetName=GND Pin=SW1-6
+Added Pin To Net: NetName=GND Pin=U-3
+Added Pin To Net: NetName=GND Pin=U-5
+Added Pin To Net: NetName=GND Pin=U-21
+Added Net: Name=GND
+Added Pin To Net: NetName=MISO Pin=B4-1
+Added Pin To Net: NetName=MISO Pin=ISPJ-5
+Added Pin To Net: NetName=MISO Pin=U-16
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=B3-1
+Added Pin To Net: NetName=MOSI Pin=ISPJ-6
+Added Pin To Net: NetName=MOSI Pin=U-15
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetB3_2 Pin=B3-2
+Added Pin To Net: NetName=NetB3_2 Pin=D1-c
+Added Net: Name=NetB3_2
+Added Pin To Net: NetName=NetB4_2 Pin=B4-2
+Added Pin To Net: NetName=NetB4_2 Pin=D2-c
+Added Net: Name=NetB4_2
+Added Pin To Net: NetName=NetB5_2 Pin=B5-2
+Added Pin To Net: NetName=NetB5_2 Pin=D3-c
+Added Net: Name=NetB5_2
+Added Pin To Net: NetName=NetD1_A Pin=D1-a
+Added Pin To Net: NetName=NetD1_A Pin=RD1-1
+Added Net: Name=NetD1_A
+Added Pin To Net: NetName=NetD2_A Pin=D2-a
+Added Pin To Net: NetName=NetD2_A Pin=RD2-1
+Added Net: Name=NetD2_A
+Added Pin To Net: NetName=NetD3_A Pin=D3-a
+Added Pin To Net: NetName=NetD3_A Pin=RD3-1
+Added Net: Name=NetD3_A
+Added Pin To Net: NetName=NetD4_A Pin=D4-a
+Added Pin To Net: NetName=NetD4_A Pin=RD4-1
+Added Net: Name=NetD4_A
+Added Pin To Net: NetName=NetENA_2 Pin=ENA-2
+Added Pin To Net: NetName=NetENA_2 Pin=j4-3
+Added Pin To Net: NetName=NetENA_2 Pin=RENA-1
+Added Net: Name=NetENA_2
+Added Pin To Net: NetName=NetENB_2 Pin=ENB-2
+Added Pin To Net: NetName=NetENB_2 Pin=j4-4
+Added Pin To Net: NetName=NetENB_2 Pin=RENB-1
+Added Net: Name=NetENB_2
+Added Pin To Net: NetName=NetESP_RX Pin=ESP-RX
+Added Pin To Net: NetName=NetESP_RX Pin=U-31
+Added Net: Name=NetESP_RX
+Added Pin To Net: NetName=NetESP_TX Pin=ESP-TX
+Added Pin To Net: NetName=NetESP_TX Pin=U-30
+Added Net: Name=NetESP_TX
+Added Pin To Net: NetName=Netj2_3 Pin=j2-3
+Added Pin To Net: NetName=Netj2_3 Pin=U-23
+Added Net: Name=Netj2_3
+Added Pin To Net: NetName=Netj2_4 Pin=j2-4
+Added Pin To Net: NetName=Netj2_4 Pin=U-24
+Added Net: Name=Netj2_4
+Added Pin To Net: NetName=Netj5_1 Pin=j5-1
+Added Pin To Net: NetName=Netj5_1 Pin=U-9
+Added Net: Name=Netj5_1
+Added Pin To Net: NetName=Netj5_3 Pin=j5-3
+Added Pin To Net: NetName=Netj5_3 Pin=U-32
+Added Net: Name=Netj5_3
+Added Pin To Net: NetName=Netj5_4 Pin=j5-4
+Added Pin To Net: NetName=Netj5_4 Pin=U-1
+Added Net: Name=Netj5_4
+Added Pin To Net: NetName=Netj5_5 Pin=j5-5
+Added Pin To Net: NetName=Netj5_5 Pin=U-2
+Added Net: Name=Netj5_5
+Added Pin To Net: NetName=Netj6_1 Pin=j6-1
+Added Pin To Net: NetName=Netj6_1 Pin=U-10
+Added Net: Name=Netj6_1
+Added Pin To Net: NetName=Netj6_2 Pin=j6-2
+Added Pin To Net: NetName=Netj6_2 Pin=U-11
+Added Net: Name=Netj6_2
+Added Pin To Net: NetName=Netj6_3 Pin=j6-3
+Added Pin To Net: NetName=Netj6_3 Pin=U-13
+Added Net: Name=Netj6_3
+Added Pin To Net: NetName=Netj6_4 Pin=j6-4
+Added Pin To Net: NetName=Netj6_4 Pin=U-14
+Added Net: Name=Netj6_4
+Added Pin To Net: NetName=Netj7_1 Pin=j7-1
+Added Pin To Net: NetName=Netj7_1 Pin=RS1-2
+Added Pin To Net: NetName=Netj7_1 Pin=RS2-2
+Added Pin To Net: NetName=Netj7_1 Pin=RS3-2
+Added Pin To Net: NetName=Netj7_1 Pin=RS4-2
+Added Pin To Net: NetName=Netj7_1 Pin=U-19
+Added Net: Name=Netj7_1
+Added Pin To Net: NetName=Netj7_2 Pin=j7-2
+Added Pin To Net: NetName=Netj7_2 Pin=RS5-2
+Added Pin To Net: NetName=Netj7_2 Pin=RS6-2
+Added Pin To Net: NetName=Netj7_2 Pin=RS7-2
+Added Pin To Net: NetName=Netj7_2 Pin=RS8-2
+Added Pin To Net: NetName=Netj7_2 Pin=U-22
+Added Net: Name=Netj7_2
+Added Pin To Net: NetName=Netj7_3 Pin=j7-3
+Added Pin To Net: NetName=Netj7_3 Pin=U-25
+Added Net: Name=Netj7_3
+Added Pin To Net: NetName=NetPWR_A Pin=PWR-a
+Added Pin To Net: NetName=NetPWR_A Pin=RPWR-1
+Added Net: Name=NetPWR_A
+Added Pin To Net: NetName=PB0 Pin=D4-c
+Added Pin To Net: NetName=PB0 Pin=U-12
+Added Net: Name=PB0
+Added Pin To Net: NetName=PB5 Pin=B5-1
+Added Pin To Net: NetName=PB5 Pin=ISPJ-4
+Added Pin To Net: NetName=PB5 Pin=U-17
+Added Net: Name=PB5
+Added Pin To Net: NetName=PC3 Pin=RSW3-1
+Added Pin To Net: NetName=PC3 Pin=SW1-1
+Added Pin To Net: NetName=PC3 Pin=U-26
+Added Net: Name=PC3
+Added Pin To Net: NetName=PC4 Pin=RSW2-1
+Added Pin To Net: NetName=PC4 Pin=SW1-2
+Added Pin To Net: NetName=PC4 Pin=U-27
+Added Net: Name=PC4
+Added Pin To Net: NetName=PC5 Pin=RSW1-1
+Added Pin To Net: NetName=PC5 Pin=SW1-3
+Added Pin To Net: NetName=PC5 Pin=U-28
+Added Net: Name=PC5
+Added Pin To Net: NetName=RESET Pin=ISPJ-1
+Added Pin To Net: NetName=RESET Pin=RRST-1
+Added Pin To Net: NetName=RESET Pin=RST_SW-b2
+Added Pin To Net: NetName=RESET Pin=U-29
+Added Net: Name=RESET
+Added Pin To Net: NetName=XTAL1 Pin=CX1-2
+Added Pin To Net: NetName=XTAL1 Pin=U-7
+Added Pin To Net: NetName=XTAL1 Pin=X-1
+Added Net: Name=XTAL1
+Added Pin To Net: NetName=XTAL2 Pin=CX2-2
+Added Pin To Net: NetName=XTAL2 Pin=U-8
+Added Pin To Net: NetName=XTAL2 Pin=X-2
+Added Net: Name=XTAL2
+Added Class: Name=connection_Sheet
+Added Class: Name=ESP8266_Sheet
+Added Class: Name=main
+Added Class: Name=Motors_Sheet
+Added Class: Name=Programmer_Sheet

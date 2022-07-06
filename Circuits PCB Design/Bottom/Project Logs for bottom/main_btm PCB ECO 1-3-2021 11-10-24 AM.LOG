@@ -1,0 +1,17 @@
+Added Component: Designator=L298(L298N)
+Added Pin To Net: NetName=SENSA Pin=L298-1
+Added Pin To Net: NetName=NetD1_A Pin=L298-2
+Added Pin To Net: NetName=NetD2_A Pin=L298-3
+Added Pin To Net: NetName=+5 Pin=L298-4
+Added Pin To Net: NetName=OC1A Pin=L298-5
+Added Pin To Net: NetName=ENA Pin=L298-6
+Added Pin To Net: NetName=OC0A Pin=L298-7
+Added Pin To Net: NetName=GND Pin=L298-8
+Added Pin To Net: NetName=Vss Pin=L298-9
+Added Pin To Net: NetName=OC1B Pin=L298-10
+Added Pin To Net: NetName=ENB Pin=L298-11
+Added Pin To Net: NetName=OC0B Pin=L298-12
+Added Pin To Net: NetName=NetD3_A Pin=L298-13
+Added Pin To Net: NetName=NetD4_A Pin=L298-14
+Added Pin To Net: NetName=SENSB Pin=L298-15
+Added Member To Class: ClassName=Motors_Sheet Member=Component L298 L298N

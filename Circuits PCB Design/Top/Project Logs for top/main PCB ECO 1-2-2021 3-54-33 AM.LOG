@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=Netj6_3 Pin=j6-3
+Added Pin To Net: NetName=Netj6_3 Pin=U-13
+Added Net: Name=Netj6_3
+Added Pin To Net: NetName=Netj6_4 Pin=j6-4
+Added Pin To Net: NetName=Netj6_4 Pin=U-14
+Added Net: Name=Netj6_4

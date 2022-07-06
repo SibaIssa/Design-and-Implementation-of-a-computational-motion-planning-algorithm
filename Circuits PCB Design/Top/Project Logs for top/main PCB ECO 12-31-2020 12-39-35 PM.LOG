@@ -1,0 +1,13 @@
+Added Component: Designator=ESP(WEMOS_D1_MINI)
+Added Pin To Net: NetName=+5 Pin=ESP-5V
+Added Pin To Net: NetName=GND Pin=ESP-GND
+Added Pin To Net: NetName=NetESP_RX Pin=ESP-RX
+Added Pin To Net: NetName=NetESP_RX Pin=j5-2
+Added Pin To Net: NetName=NetESP_RX Pin=U-31
+Added Net: Name=NetESP_RX
+Added Pin To Net: NetName=NetESP_TX Pin=ESP-TX
+Added Pin To Net: NetName=NetESP_TX Pin=j5-1
+Added Pin To Net: NetName=NetESP_TX Pin=U-30
+Added Net: Name=NetESP_TX
+Added Class: Name=ESP8266_Sheet
+Added Room: Name=ESP8266_Sheet

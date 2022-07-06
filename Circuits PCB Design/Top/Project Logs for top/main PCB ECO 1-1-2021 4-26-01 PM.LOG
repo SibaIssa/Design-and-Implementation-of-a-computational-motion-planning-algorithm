@@ -1,0 +1,13 @@
+Added Component: Designator=ENA(JUMPER2)
+Added Component: Designator=ENB(JUMPER2)
+Added Pin To Net: NetName=GND Pin=ENA-1
+Added Pin To Net: NetName=NetENA_2 Pin=ENA-2
+Added Pin To Net: NetName=GND Pin=ENB-1
+Added Pin To Net: NetName=NetENB_2 Pin=ENB-2
+Added Member To Class: ClassName=Motors_Sheet Member=Component ENA jumper
+Added Member To Class: ClassName=Motors_Sheet Member=Component ENB jumper
+Added Room: Name=connection_Sheet
+Added Room: Name=ESP8266_Sheet
+Added Room: Name=main
+Added Room: Name=Motors_Sheet
+Added Room: Name=Programmer_Sheet

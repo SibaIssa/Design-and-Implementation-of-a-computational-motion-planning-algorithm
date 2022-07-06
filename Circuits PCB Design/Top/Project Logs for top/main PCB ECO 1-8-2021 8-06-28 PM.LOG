@@ -1,0 +1,80 @@
+Removed Pin From Net: NetName=NetPWR_A Pin=RRST2-1
+Removed Pin From Net: NetName=+5 Pin=RRST2-2
+Removed Member From Class: ClassName=main Member=RRST2
+Change Component Footprint: Designator=RD1 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RD2 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RD3 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RD4 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RENA Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RENB Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RRST Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS1 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS2 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS3 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS4 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS5 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS6 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS7 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RS8 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RSW1 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RSW2 Old Footprint=J1-0603 New Footprint=1206
+Change Component Footprint: Designator=RSW3 Old Footprint=J1-0603 New Footprint=1206
+Change Component Comment : Designator=RD1 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RD2 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RD3 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RD4 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RENA Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RENB Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RRST Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS1 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS2 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS3 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS4 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS5 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS6 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS7 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RS8 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RSW1 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RSW2 Old Comment=Res3 New Comment=1206
+Change Component Comment : Designator=RSW3 Old Comment=Res3 New Comment=1206
+Change component parameters: Designator = "RD1" ("RD1"); Footprint = "J1-0603"; UniqueID = "\KUJVXGSP" ("\KUJVXGSP")
+Change component parameters (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RRST" ("RRST"); Footprint = "J1-0603"; UniqueID = "\LCHJDDXM" ("\LCHJDDXM")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RSW1" ("RSW1"); Footprint = "J1-0603"; UniqueID = "\VZWEOSWY" ("\VZWEOSWY")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RSW2" ("RSW2"); Footprint = "J1-0603"; UniqueID = "\CXRPMWJM" ("\CXRPMWJM")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RSW3" ("RSW3"); Footprint = "J1-0603"; UniqueID = "\IKDEUMAO" ("\IKDEUMAO")
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RD2" ("RD2"); Footprint = "J1-0603"; UniqueID = "\EVHHECKI" ("\EVHHECKI")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "RD3" ("RD3"); Footprint = "J1-0603"; UniqueID = "\KBMUGBCK" ("\KBMUGBCK")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "RD4" ("RD4"); Footprint = "J1-0603"; UniqueID = "\FJPGKVHC" ("\FJPGKVHC")
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "RENA" ("RENA"); Footprint = "J1-0603"; UniqueID = "\TZXNFEPT" ("\TZXNFEPT")
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RENB" ("RENB"); Footprint = "J1-0603"; UniqueID = "\ZCBGVEXM" ("\ZCBGVEXM")
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS1" ("RS1"); Footprint = "J1-0603"; UniqueID = "\IEDOFBUB" ("\IEDOFBUB")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS2" ("RS2"); Footprint = "J1-0603"; UniqueID = "\CSYZIZHN" ("\CSYZIZHN")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS3" ("RS3"); Footprint = "J1-0603"; UniqueID = "\VFWJEZHN" ("\VFWJEZHN")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS4" ("RS4"); Footprint = "J1-0603"; UniqueID = "\VPMSUNWT" ("\VPMSUNWT")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS5" ("RS5"); Footprint = "J1-0603"; UniqueID = "\MIOHESHP" ("\MIOHESHP")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS6" ("RS6"); Footprint = "J1-0603"; UniqueID = "\YOTRNAEM" ("\YOTRNAEM")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS7" ("RS7"); Footprint = "J1-0603"; UniqueID = "\ITHGPGXA" ("\ITHGPGXA")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RS8" ("RS8"); Footprint = "J1-0603"; UniqueID = "\MFSISUMN" ("\MFSISUMN")
+Change component parameters (AddParameter): Name = "Value"; Value = "1"; VariantName = "[No Variations]"
+Added Component: Designator=RPWR(1206)
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetPWR_A Pin=RPWR-1
+Added Pin To Net: NetName=+5 Pin=RPWR-2
+Added Member To Class: ClassName=main Member=Component RPWR 1206

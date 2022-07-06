@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=GND Pin=ENA-1
+Removed Pin From Net: NetName=NetENA_2 Pin=ENA-2
+Removed Pin From Net: NetName=GND Pin=ENB-1
+Removed Pin From Net: NetName=NetENB_2 Pin=ENB-2
+Removed Pin From Net: NetName=MOSI Pin=JD1-1
+Removed Pin From Net: NetName=NetD1_2 Pin=JD1-2
+Removed Pin From Net: NetName=MISO Pin=JD2-1
+Removed Pin From Net: NetName=NetD2_2 Pin=JD2-2
+Removed Pin From Net: NetName=PB5 Pin=JD3-1
+Removed Pin From Net: NetName=NetD3_2 Pin=JD3-2
+Removed Member From Class: ClassName=main Member=JD1
+Removed Member From Class: ClassName=main Member=JD2
+Removed Member From Class: ClassName=main Member=JD3
+Added Component: Designator=ENA(JUMPER2)
+Added Component: Designator=ENB(JUMPER2)
+Added Component: Designator=JB3(JUMPER2)
+Added Component: Designator=JB4(JUMPER2)
+Added Component: Designator=JB5(JUMPER2)
+Added Pin To Net: NetName=GND Pin=ENA-1
+Added Pin To Net: NetName=NetENA_2 Pin=ENA-2
+Added Pin To Net: NetName=GND Pin=ENB-1
+Added Pin To Net: NetName=NetENB_2 Pin=ENB-2
+Added Pin To Net: NetName=MOSI Pin=JB3-1
+Added Pin To Net: NetName=NetD1_2 Pin=JB3-2
+Added Pin To Net: NetName=MISO Pin=JB4-1
+Added Pin To Net: NetName=NetD2_2 Pin=JB4-2
+Added Pin To Net: NetName=PB5 Pin=JB5-1
+Added Pin To Net: NetName=NetD3_2 Pin=JB5-2
+Added Member To Class: ClassName=main Member=Component JB3 jumper
+Added Member To Class: ClassName=main Member=Component JB4 jumper
+Added Member To Class: ClassName=main Member=Component JB5 jumper

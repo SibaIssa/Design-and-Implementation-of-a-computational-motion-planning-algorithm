@@ -1,0 +1,7 @@
+Added Component: Designator=CN(DC-DC Conv)
+Added Pin To Net: NetName=B+ Pin=CN-B+
+Added Pin To Net: NetName=NetBTR_2 Pin=CN-B-
+Added Pin To Net: NetName=Vss Pin=CN-Vout+
+Added Pin To Net: NetName=GND Pin=CN-Vout-
+Added Member To Class: ClassName=Power_Sheet Member=Component CH charger
+Added Member To Class: ClassName=Power_Sheet Member=Component CN DC-DC Converter

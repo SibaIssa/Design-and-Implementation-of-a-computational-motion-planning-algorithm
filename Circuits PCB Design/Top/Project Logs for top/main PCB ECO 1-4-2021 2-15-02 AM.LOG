@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=MOSI Pin=ISPJ-1
+Removed Pin From Net: NetName=MISO Pin=ISPJ-2
+Removed Pin From Net: NetName=PB5 Pin=ISPJ-3
+Removed Pin From Net: NetName=+5 Pin=ISPJ-4
+Removed Pin From Net: NetName=GND Pin=ISPJ-5
+Removed Pin From Net: NetName=RESET Pin=ISPJ-6
+Added Component: Designator=ISPJ(JST_B6B)
+Added Pin To Net: NetName=RESET Pin=ISPJ-1
+Added Pin To Net: NetName=GND Pin=ISPJ-2
+Added Pin To Net: NetName=+5 Pin=ISPJ-3
+Added Pin To Net: NetName=PB5 Pin=ISPJ-4
+Added Pin To Net: NetName=MISO Pin=ISPJ-5
+Added Pin To Net: NetName=MOSI Pin=ISPJ-6

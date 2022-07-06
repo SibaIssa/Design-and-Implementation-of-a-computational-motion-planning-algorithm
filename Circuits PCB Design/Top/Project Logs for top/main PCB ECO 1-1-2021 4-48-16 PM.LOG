@@ -1,0 +1,16 @@
+Added Component: Designator=D1(LED3_2X1_6)
+Added Component: Designator=D2(LED3_2X1_6)
+Added Component: Designator=D3(LED3_2X1_6)
+Added Component: Designator=PWR(LED3_2X1_6)
+Added Pin To Net: NetName=NetD1_A Pin=D1-a
+Added Pin To Net: NetName=NetB3_2 Pin=D1-c
+Added Pin To Net: NetName=NetD2_A Pin=D2-a
+Added Pin To Net: NetName=NetB4_2 Pin=D2-c
+Added Pin To Net: NetName=NetD3_A Pin=D3-a
+Added Pin To Net: NetName=NetB5_2 Pin=D3-c
+Added Pin To Net: NetName=NetPWR_A Pin=PWR-a
+Added Pin To Net: NetName=GND Pin=PWR-c
+Added Member To Class: ClassName=main Member=Component D1 3.2x1.6
+Added Member To Class: ClassName=main Member=Component D2 3.2x1.6
+Added Member To Class: ClassName=main Member=Component D3 3.2x1.6
+Added Member To Class: ClassName=main Member=Component PWR 3.2x1.6

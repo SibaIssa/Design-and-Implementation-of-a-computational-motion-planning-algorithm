@@ -1,0 +1,12 @@
+Added Component: Designator=B3(JUMPER2)
+Added Component: Designator=B4(JUMPER2)
+Added Component: Designator=B5(JUMPER2)
+Added Pin To Net: NetName=MOSI Pin=B3-1
+Added Pin To Net: NetName=NetB3_2 Pin=B3-2
+Added Pin To Net: NetName=MISO Pin=B4-1
+Added Pin To Net: NetName=NetB4_2 Pin=B4-2
+Added Pin To Net: NetName=PB5 Pin=B5-1
+Added Pin To Net: NetName=NetB5_2 Pin=B5-2
+Added Member To Class: ClassName=main Member=Component B3 jumper
+Added Member To Class: ClassName=main Member=Component B4 jumper
+Added Member To Class: ClassName=main Member=Component B5 jumper

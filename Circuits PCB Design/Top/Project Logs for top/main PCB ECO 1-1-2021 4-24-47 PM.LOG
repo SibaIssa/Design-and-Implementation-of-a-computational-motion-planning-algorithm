@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=JB3 NewDesignator=B3
+Change Component Designator: OldDesignator=JB4 NewDesignator=B4
+Change Component Designator: OldDesignator=JB5 NewDesignator=B5
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetB3_2
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetB4_2
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetB5_2
+Added Room: Name=connection_Sheet
+Added Room: Name=ESP8266_Sheet
+Added Room: Name=main
+Added Room: Name=Motors_Sheet
+Added Room: Name=Programmer_Sheet
