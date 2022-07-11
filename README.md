@@ -27,7 +27,7 @@ central computer from a camera that is fixed above the robots.
 5. Extracting results that confirm the validity of the proposed algorithm and its superiority over conventional and non-traditional algorithms in terms of path-finding inevitability and other factors. You can check the following video: https://www.dropbox.com/s/yim75ajkh6q3i72/video.mp4?dl=0
 
 ## Credits:
-I have worked on this project with two colleagues:
+I worked on this project with two of my colleagues:
 - [Adnan Saood](https://github.com/adnan-saood)
 - [Nada Salman](https://www.linkedin.com/in/nada-s-salman/)
 
