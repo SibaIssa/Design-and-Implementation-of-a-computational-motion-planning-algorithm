@@ -71,7 +71,14 @@ As it is clear from the previous image; the PDE managed to find the path for any
 4. Comparing between our suggested algorithm and the famous algorithms in the literature (A*, Dijkstra, Potential Field) 
 5. Extracting results that confirm the validity of the proposed algorithm and its superiority over conventional and non-traditional algorithms in terms of path-finding inevitability and other factors. You can check the following [video](https://www.dropbox.com/s/yim75ajkh6q3i72/video.mp4?dl=00).
 
-## Credits:
+## Files
+- [Body Design Folder:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Body%20Design)
+includes **SolidWorks** files.
+- [Circuits PCB Design Folder:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Circuits%20PCB%20Design)
+includes the PCB files for both top and bottom circuits, and it is important to metion that we used **Altium** software for designing the circuits.
+- [Swarm Robot Firmware Folder:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Swarm%20Robot%20Firmware) includes **.cpp** files in which contain the code that we put it on the microcontroller on each robot, and we used **AVR** software for programming.
+
+## Credits
 I worked on this project with two of my colleagues:
 - [Adnan Saood](https://github.com/adnan-saood)
 - [Nada Salman](https://www.linkedin.com/in/nada-s-salman/)
