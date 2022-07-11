@@ -36,6 +36,10 @@ After many designs, we ended up with the octagon-shaped robot with two circuits 
 
 ![PCB](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG)
 
+- robot top-view:
+
+![top_view](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_3D%20design_Top%20view.jpg)
+
 ### Manufacturing stage:
 After the designing stage, we started printing the bodies and the wheels by using a 3D printer (we used Acid Polylactic with PLA as a material). And we were printing the circuits in parallel.
 
