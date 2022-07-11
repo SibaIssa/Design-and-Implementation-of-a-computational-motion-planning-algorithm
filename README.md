@@ -52,15 +52,18 @@ After the designing stage, we started printing the bodies and the wheels by usin
 ![robot](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_after%20assembling.png)
 
 ### Implementation
-- First we started in simulation; we implemented the PDE algorithm for one robot and tested it on different maps by using **MATLAB**. And as we can see below the PDE algorithm managed to find a path from the start point to the goal in each map:
+- We started in simulation; we implemented the PDE algorithm for one robot and tested it on different maps by using **MATLAB**. And as we can see below the PDE algorithm managed to find a path from the start point to the goal in each map:
 
 ![different_maps](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/PDE%20results%20for%20different%20maps.png)
 
 As it is clear from the previous image; the PDE managed to find the path for any given map which gives it advantages over the most popular path planning algorithms (A*, Dijkestra and potential field) in terms of finding the path and time consumption.
 
-- Then we started working on ROS on the central computer; we created three nodes each one has it is clear task -as it is clear below- then we connected the central computer with each robot wirelessly by using esp8266 chip.
-- 
- ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png) 
+- Then we started the impelmentaion in real life:
+1. We calibrated the camera depeding on the pinhole camera model and we found the Intrinsic and Extrinsic parameters.
+2. We used Aruco markers in order to identify each robot, and each robot has its own ID through the whole project; in which it will help us later in sending a specific message for each robot.
+3. After working onthe feedback system, we started working on ROS on the central computer. We created three nodes each one has it is clear task -as it is clear below- then we connected the central computer with each robot wirelessly by using esp8266 chip.
+
+ ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Algorithm%20scheme.png) 
 
 ## Project output
 1. Platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles.
