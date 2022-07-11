@@ -41,7 +41,8 @@ After many designs, we ended up with the octagon-shaped robot with two circuits 
 ![PCB](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG)
 
 ### Manufacturing stage:
-After designing stage, we started printing the bodies, the wheels by using a 3D printer (we used Acid Polylactic with PLA as a material). And we were printong the circuits in parallel.
+After the designing stage, we started printing the bodies and the wheels by using a 3D printer (we used Acid Polylactic with PLA as a material). And we were printing the circuits in parallel.
+
 - circuits after manufacturing:
 
 ![circuits_2](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_real%20life.png)
@@ -57,7 +58,8 @@ After designing stage, we started printing the bodies, the wheels by using a 3D 
 
 As it is clear from the previous image; the PDE managed to find the path for any given map which gives it advantages over the most popular path planning algorithms (A*, Dijkestra and potential field) in terms of finding the path and time consumption.
 
-- Then we started working on ROS on the central computer; we created three nodes each one has it is clear task then we connected the central computer with each robot wirelessly by using esp8266 chip.
+- Then we started working on ROS on the central computer; we created three nodes each one has it is clear task -as it is clear below- then we connected the central computer with each robot wirelessly by using esp8266 chip.
+- 
  ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png) 
 
 ## Project output
