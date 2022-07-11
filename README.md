@@ -17,16 +17,16 @@ use. The control of the swarm is preformed centrally, and a visual feedback is p
 central computer from a camera that is fixed above the robots.
 
 ## Hardware description
-In the end we will have a square platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles. Above the platform there is a fixed **stereo camera**, and inside the platform there will be a **15 mobile robots**. We will design everything from scratch then we will test our proposed path planning algorithm on our designed platform.
+In the end we will have a square platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles. Above the platform there is a fixed **stereo camera**, and inside the platform there will be a **15 mobile robots**. We will design everything from scratch then we will test our proposed path planning algorithm on our designed platform. And this is a 3D design for the platform:
+
+![platform](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Platform_3D%20design.png)
+
 
 ## Project overview
 
 ### Designing Stage:
 
 After many designs, we ended up with the octagon-shaped robot with two circuits (each one of them has two layers). We chose this design; because it was the most compact one. We used **SolidWorks** for designing the body while we used **Altium** for the circuits.
-- First, Let's see the platform 3D design from top view:
-
-![platform](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Platform_3D%20design.png)
 
 - And we can see below the body CAD design with the wheels in which we chose them like this to make our own encoder and it is important to mention that we chose the optimum number of the holes (33 holes):
 
