@@ -72,7 +72,7 @@ As it is clear from the previous image; the PDE managed to find the path for any
 includes **SolidWorks** files.
 - [Circuits PCB Design Folder:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Circuits%20PCB%20Design)
 includes the **PCB** files for both top and bottom circuits, and it is important to metion that we used **Altium** software for designing the circuits.
-- [Swarm Robot Firmware Folder:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Swarm%20Robot%20Firmware) includes **.cpp** files in which contain the code that we put it on the microcontroller on each robot, and we used **AVR** software for programming.
+- [Swarm Robot Firmware Folder:](https://github.com/SibaIssa/swarm-robot-firmware) includes **.cpp** files in which contain the code that we put it on the microcontroller on each robot, and we used **AVR** software for programming.
 
 ## Credits
 I worked on this project with two of my colleagues:
