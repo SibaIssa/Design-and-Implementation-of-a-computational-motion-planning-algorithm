@@ -28,13 +28,13 @@ In the end we will have a square platform (**4.2×4.2 [m²]**) with high walls a
 
 After many designs, we ended up with the octagon-shaped robot with two circuits (each one of them has two layers). We chose this design; because it was the most compact one. We used **SolidWorks** for designing the body while we used **Altium** for the circuits. 
 
-- We can see below the body CAD design with the wheels in which we chose them like this to make our own encoder and it is important to mention that we chose the optimum number of the holes (33 holes):
-
-![CAD](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/CAD%20design.png)
-
 - circuits PCB design (the left circuit is the top one while the right circuit is the bottom one):
 
 ![PCB](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG)
+
+- We can see below the body CAD design with the wheels in which we chose them like this to make our own encoder and it is important to mention that we chose the optimum number of the holes (33 holes):
+
+![CAD](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/CAD%20design.png)
 
 - robot top-view:
 
