@@ -1,7 +1,7 @@
 # Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-navier-stokes-equation
-## This repositoery is based on the graduation project for Bachelor Degree in Mechatronics Engineering at Tishreen University, Syria - Summer 2021
+# This repositoery is based on the graduation project for Bachelor Degree in Mechatronics Engineering at Tishreen University, Syria - Summer 2021
 
-### Abstract
+## Abstract
 Formation of non-holonomic swarm robots has received a lot of considerations in both academia and
 industry over last two decades. Many path planning methods produce collision-free paths for a group of
 multiple robots, but many of them are computationally expensive and complex to implement and develop.
@@ -16,10 +16,11 @@ tested on a robotic swarm platform that we designed and implemented to ensure hi
 use. The control of the swarm is preformed centrally, and a visual feedback is provided continually to the
 central computer from a camera that is fixed above the robots.
 
-### Project Scheme
+
+## Project Scheme
 ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm-based-on-fluid-dynamics-PDE-/blob/main/Images/Project%20scheme.png) 
 
-### Project overview
+## Project overview
 1. Platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles.
 2. **15 octagon-shaped mobile robots**  designed from scratch with dimensions (**6×7×6 [m³]**).
 3. Implementing a computational motion planning algorithm on a single robot, then developing it and expanding it for the swarm of robots.
