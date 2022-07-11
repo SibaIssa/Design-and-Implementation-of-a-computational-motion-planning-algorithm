@@ -28,7 +28,7 @@ central computer from a camera that is fixed above the robots.
 
 ## Credits:
 I have worked on this project with two colleagues:
-Adnan Saood [](https://github.com/adnan-saood)
-Nada Salman [](https://www.linkedin.com/in/nada-s-salman/)
+- [Adnan Saood](https://github.com/adnan-saood)
+- [Nada Salman](https://www.linkedin.com/in/nada-s-salman/)
 
 
