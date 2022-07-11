@@ -51,7 +51,7 @@ After the designing stage, we started printing the bodies and the wheels by usin
 
 ![robot](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_after%20assembling.png)
 
-### Implementation
+### Algorithm Implementation
 - We started in simulation; we implemented the PDE algorithm for one robot and tested it on different maps by using **MATLAB**. And as we can see below the PDE algorithm managed to find a path from the start point to the goal in each map:
 
 ![different_maps](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/PDE%20results%20for%20different%20maps.png)
