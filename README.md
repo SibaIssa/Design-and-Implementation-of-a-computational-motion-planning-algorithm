@@ -30,7 +30,7 @@ After many designs, we ended up with the octagon-shaped robot with two circuits 
 
 - circuits PCB design (the left circuit is the top one while the right circuit is the bottom one):
 
-![PCB](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG)
+<img src="https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG" width="700" height="350">
 
 - We can see below the body CAD design with the wheels in which we chose them like this to make our own encoder and it is important to mention that we chose the optimum number of the holes (33 holes):
 
@@ -38,14 +38,14 @@ After many designs, we ended up with the octagon-shaped robot with two circuits 
 
 - robot top-view:
 
-![top_view](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_3D%20design_Top%20view.jpg)
+<img src="https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_3D%20design_Top%20view.jpg" width="350" height="350">
 
 ### Manufacturing stage:
 After the designing stage, we started printing the bodies and the wheels by using a 3D printer (we used Acid Polylactic with PLA as a material). And we were printing the circuits in parallel.
 
 - circuits after manufacturing:
 
-![circuits_2](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_real%20life.png)
+<img src="https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_real%20life.png" width="700" height="350">
 
 - we can see below one robot after manufacturing and assembling, and for more images about manufacturing stage you can check the [Images Folder](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/tree/main/Images).
 
