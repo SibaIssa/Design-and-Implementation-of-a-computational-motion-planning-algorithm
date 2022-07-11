@@ -63,7 +63,7 @@ As it is clear from the previous image; the PDE managed to find the path for any
 2. We used Aruco markers in order to identify each robot, and each robot has its own ID through the whole project; in which it will help us later in sending a specific message for each robot.
 3. After working onthe feedback system, we started working on ROS on the central computer. We created three nodes each one has it is clear task -as it is clear below- then we connected the central computer with each robot wirelessly by using esp8266 chip.
 
- ![here the project scheme:][(https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Algorithm%20scheme.png]
+ ![here the project scheme:](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Algoritm%20Scheme.png)
 ## Project output
 1. Platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles.
 2. **15 octagon-shaped mobile robots**  designed from scratch with dimensions (**6×7×6 [m³]**).
