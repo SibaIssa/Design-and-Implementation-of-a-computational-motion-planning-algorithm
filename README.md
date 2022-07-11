@@ -16,7 +16,7 @@ tested on a robotic swarm platform that we designed and implemented to ensure hi
 use. The control of the swarm is preformed centrally, and a visual feedback is provided continually to the
 central computer from a camera that is fixed above the robots.
 
-## Hardware description
+## Environment Setup
 In the end we will have a square platform (**4.2×4.2 [m²]**) with high walls and different types of obstacles. Above the platform there is a fixed **stereo camera**, and inside the platform there will be a **15 mobile robots**. We will design everything from scratch then we will test our proposed path planning algorithm on our designed platform. And this is a 3D design for the platform:
 
 ![platform](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/Platform_3D%20design.png)
