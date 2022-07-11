@@ -32,10 +32,6 @@ After many designs, we ended up with the octagon-shaped robot with two circuits 
 
 ![CAD](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/CAD%20design.png)
 
-- top view of the robot design:
-
-![top-view](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/one%20robot_3D%20design_Top%20view.jpg)
-
 - circuits PCB design (the left circuit is the top one while the right circuit is the bottom one):
 
 ![PCB](https://github.com/SibaIssa/Design-and-Implementation-of-a-computational-motion-planning-algorithm/blob/main/Images/circuits_PCB%20design.PNG)
